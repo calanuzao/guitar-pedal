@@ -1,0 +1,24 @@
+Final Project - Due 6:45PM (Beginning of class) on April 30th
+
+
+Create some digital signal processing system (ie prototype an effect, an analysis system, etc). 
+The scope should be at least a bit higher than the plate reverb homework assignment. 
+You may use any coding system you like but jupyter notebooks are recommended for their ease of use and
+low barrier to working on DSP. Remember, your project should focus on the signal processing;
+I don't care if there is any user interface. Your project does not need to be some entirely new invention, 
+but don't just 1 to 1 copy a project that already exists. If you have any uncertainties about a project idea, 
+run it by me!
+
+
+Document your project in whatever way makes sense to you (thoroughly annotated jupyter notebook, 
+well-organized notes, blog post, video lecture, etc.) The documentation should be aimed at the average 
+student beginning this course. Basic knowledge of DSP can be assumed but any theory beyond this should be
+explained.
+
+----------------- TO TURN IN -----------------
+
+1. On April 30th you will present your project in class. Give an abbreviated presentation of your
+
+2. Before class on the 30th you will submit your project to brightspace including the following
+	- Sourcecode including any dependencies and a readme describing how to run it
+	- Documentation of the project as described above
