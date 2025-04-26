@@ -7,7 +7,7 @@ import numpy as np
 from scipy import signal
 
 class envelope:
-    def __innit__(self, bandwidth, float=10, sr: float = 44100):
+    def __init__(self, bandwidth, float=10, sr: float = 44100):
         # creating a lowpass filter with 2nd order characteristics using 
         # a butterwoth filtering method
         self.a, self.b = signal.butter(3, bandwidth, fs=sr)
@@ -49,5 +49,8 @@ class envelope:
     def bandwidth(self):
         return self.bandwidth
     
+    @propety
+    def sr(self)
+        return self.sr
     
         
