@@ -21,7 +21,9 @@ class EnvelopeFollower:
         return y
 
 class VariableBPF:
-    """State-variable filter for real-time frequency modulation"""
+    """
+    State-variable filter for real-time frequency modulation.
+    """
     def __init__(self, sr: float = 44100):
         self.sr = sr
         self.fc = 1000.0  # Center frequency
@@ -123,7 +125,7 @@ class WahWah:
                 self.bpf.update_params(freq, self.q)
                 output[i] = self.bpf.process_sample(input_buffer[i])
 
-        # Remove DC offset
+        # removes DC offset
         output, self.dc_z = signal.lfilter(
             self.dc_b, self.dc_a, output, zi=self.dc_z
         )
