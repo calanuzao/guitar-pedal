@@ -81,7 +81,7 @@ class WahWah:
 
     def set_pedal(self, pedal) -> None:
         """
-        Attach a pedal controller to the wah effect
+        Attaching a pedal type controller to the wah-wah effect
         
         Parameters:
             pedal: WahPedal object for controlling the effect
@@ -120,7 +120,7 @@ class WahWah:
             # process samples with modulated filter
             output = np.zeros_like(input_buffer)
             for i in range(len(input_buffer)):
-                # Map envelope to frequency range
+                # mapping envelope to frequency range
                 freq = self.min_freq + envelope[i] * (self.max_freq - self.min_freq)
                 self.bpf.update_params(freq, self.q)
                 output[i] = self.bpf.process_sample(input_buffer[i])
@@ -130,4 +130,4 @@ class WahWah:
             self.dc_b, self.dc_a, output, zi=self.dc_z
         )
         
-        return output * 2.0  # Compensation gain
+        return output * 2.0  
