@@ -1,5 +1,31 @@
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
 .ipynb_checkpoints/
 .jupyter/
 .jupyter_ystore.db
+
+# Project specific
 final_project.txt
+
+# Data files
+*.csv
+*.db
+*.sqlite
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
