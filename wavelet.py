@@ -1,6 +1,6 @@
 import numpy as np
 import pywt
-from typing import List, Unio
+from typing import List, Union
 
 class WaveletEffect:
     def __init__(self, 

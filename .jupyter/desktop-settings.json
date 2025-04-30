@@ -1,3 +1,4 @@
 {
-  "pythonPath": "/opt/homebrew/Caskroom/miniconda/base/envs/dsp/bin/python"
+  "pythonPath": "/opt/homebrew/Caskroom/miniconda/base/envs/dsp/bin/python",
+  "uiMode": "zen"
 }
