@@ -1,0 +1,5 @@
+__pycache__/
+.ipynb_checkpoints/
+.jupyter/
+.jupyter_ystore.db
+final_project.txt
